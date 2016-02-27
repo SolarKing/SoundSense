@@ -6,6 +6,7 @@ var bodyParser = require('body-parser');
 // allows us to read data from a POST
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static('dist'));
 // allows us to use this url from another domain/origin
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
