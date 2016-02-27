@@ -1,0 +1,226 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 16px; }
+
+#mainView {
+  background: #212e34;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: auto; }
+
+.header-menu {
+  height: 50px;
+  border-bottom: thin solid gray;
+  text-align: right;
+  line-height: 50px;
+  font-weight: 300; }
+  .header-menu span {
+    font-size: 20px;
+    padding: 0px 15px;
+    border: thin solid gray;
+    border-radius: 5px;
+    margin: 0 10px; }
+
+.speaker-volume-control {
+  padding: 15px;
+  height: 100px; }
+  .speaker-volume-control i {
+    float: left;
+    font-size: 24px; }
+  .speaker-volume-control h3 {
+    font-weight: 300;
+    text-align: center; }
+
+.speaker-options {
+  height: 50px; }
+  .speaker-options button {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: none;
+    float: left;
+    background: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 300; }
+    .speaker-options button:first-child {
+      border-right: thin solid gray; }
+
+.speaker-item-wrapper {
+  width: 100%;
+  border-bottom: #787878 thin solid; }
+
+.speaker-item {
+  width: 100%;
+  min-height: 90px;
+  border-bottom: #787878 thin solid; }
+
+.speaker-item-logo {
+  font-size: 32px;
+  float: left;
+  padding: 30px;
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px; }
+
+.speaker-item-name {
+  font-size: 36px;
+  float: left;
+  padding-top: 28px;
+  box-sizing: border-box;
+  font-weight: 300; }
+
+.selection {
+  font-weight: 300;
+  padding: 5px;
+  border-bottom: white 2px solid;
+  position: relative; }
+
+.custom-dropdown-wrapper {
+  width: 200px;
+  position: relative; }
+
+.custom-dropdown-items {
+  z-index: 999;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  color: #434343;
+  border-radius: 5px 0 5px 5px; }
+  .custom-dropdown-items .custom-dropdown-item {
+    padding: 15px;
+    border-bottom: #ccc thin solid;
+    text-align: center; }
+    .custom-dropdown-items .custom-dropdown-item:last-child {
+      border: none; }
+
+.custom-dropdown-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.settingsNavMenu {
+  height: 70px;
+  border-bottom: #787878 thin solid; }
+
+.prevRoute {
+  height: 70px;
+  width: 70px;
+  background: none;
+  font-size: 16px;
+  color: white;
+  border: none;
+  float: left; }
+
+.settingsMain {
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.settingsNavTitle {
+  float: left;
+  font-size: 36px;
+  font-weight: 300;
+  padding: 15px; }
+
+.soundLevel {
+  position: relative;
+  display: inline;
+  width: 100px;
+  overflow: auto; }
+
+.selector {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif; }
+
+.dynamicBehavior {
+  font-size: 18px;
+  line-height: 2em;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 20px; }
+  .dynamicBehavior p {
+    text-align: right;
+    line-height: 1.5; }
+
+.volumeRangeSlider {
+  padding: 0px 20px 10px 20px;
+  box-sizing: border-box; }
+  .volumeRangeSlider i {
+    float: left;
+    font-size: 24px; }
+
+.range-slider-wrapper {
+  width: 80%;
+  float: left;
+  margin: -6px 10px 0; }
+
+.dynamicVolume {
+  padding: 15px 15px 0;
+  box-sizing: border-box;
+  overflow: auto; }
+
+.dynamicVolumeLabel {
+  font-size: 28px;
+  float: left;
+  font-weight: 300; }
+
+.dynamicVolumeToggle {
+  float: right; }
+
+.presets {
+  overflow: hidden;
+  overflow-x: scroll; }
+
+.presets-wrapper {
+  border-bottom: #787878 thin solid;
+  padding: 9px;
+  box-sizing: border-box;
+  height: 60px;
+  width: 500px;
+  box-sizing: border-box;
+  overflow-x: auto; }
+  .presets-wrapper button {
+    float: left;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 95px;
+    height: 40px;
+    background: none;
+    color: #787878;
+    border: none;
+    border-right: #787878 thin solid; }
+    .presets-wrapper button:last-child {
+      border-right: none; }
+
+.volumeRangeName {
+  text-align: center;
+  padding: 7px;
+  font-size: 18px; }
+
+.resetButton {
+  display: block;
+  margin: 50px auto;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  box-sizing: border-box;
+  padding: 10px;
+  border: #787878 thin solid;
+  background: none;
+  color: white;
+  border-radius: 5px;
+  width: 80%; }
+
+/*# sourceMappingURL=sound-sense-client.css.map */
