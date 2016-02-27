@@ -35,7 +35,7 @@ router.route("/api/v1/soundsense")
   var data = req.body;
   var counter = 0;
 
-  var someData = req.body.splice(3, -3);
+  var someData = req.body.slice(3, -3);
   // respond w/ json
   console.log(someData);
   if (someData.values) {
