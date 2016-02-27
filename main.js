@@ -34,10 +34,12 @@ router.route("/api/v1/soundsense")
   // get the data from the POST request
   var data = req.body;
   var counter = 0;
-  console.log(req.body);
+
+  var someData = req.body.splice(3, -3);
   // respond w/ json
-  if (req.body.values) {
-    req.body.values.forEach(function(value) {
+  console.log(someData);
+  if (someData.values) {
+    someData.values.forEach(function(value) {
       if(value.value) {
         counter++;
         storage += value.value;
